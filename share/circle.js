@@ -1,0 +1,1 @@
+var render;render=function(r,e,n,t){var c;return null==t&&(t=!1),c=r.select(e).selectAll("circle").data(n),c.enter().append("circle").attr({cx:function(){return 600*Math.random()+100},cy:function(){return 400*Math.random()+100},r:function(){return 40*Math.random()+10},fill:function(){return t?"#f00":"#00f"},stroke:"#000",strokeWidth:"2"}),c},module.exports=render;
